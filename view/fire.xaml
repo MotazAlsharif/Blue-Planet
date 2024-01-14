@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BluePlanet2.view.fire"
+             Title=""
+             BackgroundColor="#04174A">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Large Wallpaper -->
+        <Image Grid.Row="0" Source="fire.jpg" Aspect="AspectFill" HeightRequest="200"/>
+
+        <!-- Left Arrow Button -->
+
+
+        <!-- Text Content -->
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="15" Spacing="20">
+                <Label Text="Fire coral (Millepora alcicornis)" TextColor="#FFFFFF" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Weight : Varies" TextColor="White" CharacterSpacing="1" />
+                <Label Text="Length : Varies" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="LifeSpan : Varies" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="Region : Red Sea" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="Threats : Climate change, pollution, and overfishing." TextColor="White" CharacterSpacing="1"/>
+                <Label Text="About : A stinging coral that is important for reef-building. " TextColor="White" CharacterSpacing="1"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

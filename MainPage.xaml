@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BluePlanet2.MainPage">
+
+    <ScrollView BackgroundColor="#04174A">
+        <VerticalStackLayout>
+
+            <Grid Margin="2" VerticalOptions="CenterAndExpand">
+                <Border Opacity="0.5"
+                        BackgroundColor="#04174A"
+                        StrokeThickness="0"/>
+                <ImageButton Source="oceanmain.jpg" 
+                             WidthRequest="300"
+                             HeightRequest="300"
+                             HorizontalOptions="Center"
+                             Margin="2"
+                             />
+                <Label Text="Water Quality"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+            </Grid>
+            <Grid Margin="2" VerticalOptions="CenterAndExpand">
+                <Border Opacity="0.5"
+                        BackgroundColor="#04174A"
+                        StrokeThickness="0"/>
+                <ImageButton Source="tritle.jpg" 
+                             WidthRequest="300"
+                             HeightRequest="300"
+                             HorizontalOptions="Center"
+                             Margin="2"
+                             Clicked="OnImageButtonClicked"/>
+                <Label Text="Endangered Marine Animals"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"/>
+            </Grid>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

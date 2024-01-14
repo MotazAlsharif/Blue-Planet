@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BluePlanet2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BluePlanet2"
+    xmlns:views="clr-namespace:BluePlanet2.view"
+    Shell.FlyoutBehavior="Disabled">
+    <ShellContent
+Title="giantclam"
+ContentTemplate="{DataTemplate views:giantclam}"
+Route="giantclam" />
+    <ShellContent
+Title="fire"
+ContentTemplate="{DataTemplate views:fire}"
+Route="fire" />
+    <ShellContent
+Title="braincoral"
+ContentTemplate="{DataTemplate views:braincoral}"
+Route="braincoral" />
+    <ShellContent
+Title="staghorncora"
+ContentTemplate="{DataTemplate views:staghorncora}"
+Route="staghorncora" />
+    <ShellContent
+Title="elkhorncoral"
+ContentTemplate="{DataTemplate views:elkhorncoral}"
+Route="elkhorncoral" />
+    <ShellContent
+Title="whaleshark"
+ContentTemplate="{DataTemplate views:whaleshark}"
+Route="whaleshark" />
+    <ShellContent
+Title="giantmantaray"
+ContentTemplate="{DataTemplate views:giantmantaray}"
+Route="giantmantaray" />
+    <ShellContent
+Title="Napoleon"
+ContentTemplate="{DataTemplate views:Napoleon}"
+Route="Napoleon" />
+    <ShellContent
+Title="dugong"
+ContentTemplate="{DataTemplate views:dugong}"
+Route="dugong" />
+    <ShellContent
+ Title="leatherbackseaturtle"
+ ContentTemplate="{DataTemplate views:leatherbackseaturtle}"
+ Route="leatherbackseaturtle" />
+    <ShellContent
+      Title="hawksbillseaturtle"
+      ContentTemplate="{DataTemplate views:hawksbillseaturtle}"
+      Route="hawksbillseaturtle" />
+    <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate views:emamainpage}"
+    Route="MainPage" />
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>

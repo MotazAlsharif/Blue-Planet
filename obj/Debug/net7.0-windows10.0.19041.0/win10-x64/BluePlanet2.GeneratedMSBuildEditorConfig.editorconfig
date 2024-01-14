@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BluePlanet2
+build_property.ProjectDir = d:\blueplanetgit\Blue-Planet\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[d:/blueplanetgit/Blue-Planet/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[d:/blueplanetgit/Blue-Planet/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[d:/blueplanetgit/Blue-Planet/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[d:/blueplanetgit/Blue-Planet/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[d:/blueplanetgit/Blue-Planet/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/braincoral.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.braincoral.xaml
+build_metadata.AdditionalFiles.TargetPath = view\braincoral.xaml
+build_metadata.AdditionalFiles.RelativePath = view\braincoral.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/dugong.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.dugong.xaml
+build_metadata.AdditionalFiles.TargetPath = view\dugong.xaml
+build_metadata.AdditionalFiles.RelativePath = view\dugong.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/elkhorncoral.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.elkhorncoral.xaml
+build_metadata.AdditionalFiles.TargetPath = view\elkhorncoral.xaml
+build_metadata.AdditionalFiles.RelativePath = view\elkhorncoral.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/emamainpage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.emamainpage.xaml
+build_metadata.AdditionalFiles.TargetPath = view\emamainpage.xaml
+build_metadata.AdditionalFiles.RelativePath = view\emamainpage.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/fire.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.fire.xaml
+build_metadata.AdditionalFiles.TargetPath = view\fire.xaml
+build_metadata.AdditionalFiles.RelativePath = view\fire.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/giantclam.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.giantclam.xaml
+build_metadata.AdditionalFiles.TargetPath = view\giantclam.xaml
+build_metadata.AdditionalFiles.RelativePath = view\giantclam.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/giantmantaray.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.giantmantaray.xaml
+build_metadata.AdditionalFiles.TargetPath = view\giantmantaray.xaml
+build_metadata.AdditionalFiles.RelativePath = view\giantmantaray.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/hawksbillseaturtle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.hawksbillseaturtle.xaml
+build_metadata.AdditionalFiles.TargetPath = view\hawksbillseaturtle.xaml
+build_metadata.AdditionalFiles.RelativePath = view\hawksbillseaturtle.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/leatherbackseaturtle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.leatherbackseaturtle.xaml
+build_metadata.AdditionalFiles.TargetPath = view\leatherbackseaturtle.xaml
+build_metadata.AdditionalFiles.RelativePath = view\leatherbackseaturtle.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/Napoleon.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.Napoleon.xaml
+build_metadata.AdditionalFiles.TargetPath = view\Napoleon.xaml
+build_metadata.AdditionalFiles.RelativePath = view\Napoleon.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/staghorncora.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.staghorncora.xaml
+build_metadata.AdditionalFiles.TargetPath = view\staghorncora.xaml
+build_metadata.AdditionalFiles.RelativePath = view\staghorncora.xaml
+
+[d:/blueplanetgit/Blue-Planet/view/whaleshark.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BluePlanet2.view.whaleshark.xaml
+build_metadata.AdditionalFiles.TargetPath = view\whaleshark.xaml
+build_metadata.AdditionalFiles.RelativePath = view\whaleshark.xaml

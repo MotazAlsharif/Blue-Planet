@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BluePlanet2.view.emamainpage"
+             xmlns:views="clr-namespace:BluePlanet2.view"
+             Title="">
+    <ScrollView BackgroundColor="#04174A">
+
+        <VerticalStackLayout>
+            <Grid RowDefinitions="Auto,2">
+                <Border StrokeShape="RoundRectangle 0,0,30,30"
+                 Opacity="0.5"
+                 BackgroundColor="#04174A"
+                 StrokeThickness="0">
+                    <Image Source="brain.jpg" />
+
+                </Border>
+
+                <Grid>
+                    <Label Text="Endangerd Marine Animals"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"/>
+                </Grid>
+                <Grid ColumnDefinitions="*,Auto">
+                    <Frame HeightRequest="50" BackgroundColor="White" CornerRadius="50"
+                              Margin="10"
+                              Padding="0"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Start">
+                        <SearchBar Placeholder="Search From Here..."
+                        HorizontalTextAlignment="Start"
+                        PlaceholderColor="LightGray"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"/>
+                    </Frame>
+                </Grid>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+     CornerRadius="10" Padding="0"
+     VerticalOptions="Start">
+                    <ImageButton Source="hawksbillseaturtle.jpg" 
+
+
+
+               Aspect="AspectFill" Clicked="OnHawksbillSeaTurtleButtonClicked"
+                         />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Hawksbill sea turtle"
+                            TextColor="White"
+                            Padding="0"
+                            FontSize="15"
+                            FontAttributes="Bold"/>
+
+                    <Label Text="A critically endangered sea turtle with a beautiful tortoiseshell shell." TextColor="white"
+                FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="leatherback.jpg" 
+
+
+
+          Aspect="AspectFill" 
+                         />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Leatherback sea turtle"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="The largest sea turtle in the world, with a leathery shell instead of a hard one" TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="dugong.jpg" 
+
+
+
+          Aspect="AspectFill"/>
+                   
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Dugong"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A large marine mammal that is related to the manatee." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="napoleon.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Napoleon wrasse"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A large, colorful fish that is a popular target for overfishing." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="giantmantaray.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Giant manta ray"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="The largest manta ray species, with a wingspan of up to 6 meters." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="whaleshark.jpg" 
+
+
+
+          Aspect="AspectFill"/>
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Whaleshark"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="The largest fish in the world, but a gentle giant that feeds on plankton." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="elkhorncoral.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Elkhorn coral"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A fast-growing coral that is important for reef-building." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="staghorncoral.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Staghorn coral"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="Another fast-growing coral that is important for reef-building." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="brain.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Hawksbill sea turtle"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A slow-growing coral that is important for reef-building." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="fire.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Fire coral"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A stinging coral that is important for reef-building." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="giantclam.jpg" 
+
+
+
+          Aspect="AspectFill"/>
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Giant clam"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="The largest bivalve mollusk in the world." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid ColumnDefinitions="Auto,*" Grid.Row="1" Margin="10">
+                <Frame WidthRequest="100" HeightRequest="100"
+CornerRadius="10" Padding="0"
+VerticalOptions="Start">
+                    <ImageButton Source="queen.jpg" 
+
+
+
+          Aspect="AspectFill" />
+
+
+                </Frame>
+                <VerticalStackLayout Grid.Column="1" Margin="10" Spacing="5">
+
+
+                    <Label Text="Queen conch"
+                       TextColor="White"
+                       Padding="0"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+
+                    <Label Text="A large sea snail with a beautiful spiral shell." TextColor="white"
+           FontSize="11"/>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+
+
+
+
+
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+
+</ContentPage>

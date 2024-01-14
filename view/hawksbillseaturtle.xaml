@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BluePlanet2.view.hawksbillseaturtle"
+             Title=""
+             BackgroundColor="#04174A">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Large Wallpaper -->
+        <Image Grid.Row="0" Source="hawksbillseaturtle.jpg" Aspect="AspectFill" HeightRequest="200"/>
+
+        <!-- Left Arrow Button -->
+        
+
+        <!-- Text Content -->
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="15" Spacing="20">
+                <Label Text="Hawksbill sea turtle (Eretmochelys imbricata)" TextColor="#FFFFFF" FontSize="25" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Weight : 45KG" TextColor="White" CharacterSpacing="1" />
+                <Label Text="Length : 70-90CM" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="LifeSpan : 30-50 years" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="Region : Red Sea" TextColor="White" CharacterSpacing="1"/>
+                <Label Text="Threats : Habitat loss, overfishing, and poaching." TextColor="White" CharacterSpacing="1"/>
+                <Label Text="About : A critically endangered sea turtle with a beautiful tortoiseshell shell. " TextColor="White" CharacterSpacing="1"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
